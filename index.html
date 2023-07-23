@@ -166,6 +166,20 @@ hs.src = ('//s10.histats.com/js15_as.js');
   <iframe src="https://t.dtscout.com/idg/?su=4C301686060162734BA846E7F371D496" width="0" height="0" style="display: none;"></iframe> 
 
   <img src="https://t.dtscout.com/udg/?su=4C301680376967C3F4DE14B5E72C953B" width="0" height="0" style="display: none;"> 
+	 <script type='text/javascript'>
+document.oncontextmenu = function() {
+alert("warning !!!");
+return false;
+}
+document.onkeydown = function(e) {
+if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {
+alert('warning !!!');
+return false;
+} else {
+return true;
+}
+};
+	 </script>
 
  </body>
 
